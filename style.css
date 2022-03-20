@@ -1,0 +1,29 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #8ef18e;
+}
+
+.ratio-4x3 {
+  @include media-breakpoint-up(md) {
+    --bs-aspect-ratio: 50%; // 2x1
+  }
+}
+
+#projects {
+  background-color: #8ef18e;
+}
+
+#footer {
+  background-color: #8ef18e;
+}
+section {
+  padding-top: 6rem;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    overflow: auto;
+    max-height: 85vh;
+    align-items: flex-start;
+  }
+}
